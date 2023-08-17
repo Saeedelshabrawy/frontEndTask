@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f5f5f5;
+    padding: 20px 0;
+    box-sizing: border-box;
+}
+.logo{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 25px;
+    /* font-weight: 500; */
+    margin-left: 20px;
+    color: #22211f;
+}
+nav a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #22211f;
+    margin-right: 20px;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+}
+nav a:hover{
+    border: 1px solid palevioletred;
+    border-radius: 5px;
+    /* margin: 2px 5px; */
+    padding: 2px 5px;
+    background: #f07575;
+}
+.image{
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-size: cover;
+    height: 500px;
+    background-attachment: fixed;
+    border: none;
+}
+.secondpage{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-around;
+}
+.burger{
+    float: left;
+    /* width: 300px;
+    height: 420px; */
+    max-width: 500px;
+    padding-left: 100px;
+    padding-top: 70px;
+
+}
+
+.text h2{
+    color: #f07575;
+    font-size: 41px;
+    padding-top: 100px;
+    padding-left: 300px;
+}
+.text p{
+    color: #261f4d;
+    padding-left: 70px;
+    padding-top: 50px;
+    font-size: 25px;
+    
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+.text2 h2{
+    padding-left: 300px;
+    color: #f07575;
+    font-size: 45px;
+}
+.text2 p{
+    color: #261f4d;
+    padding-left: 90px;
+    padding-right: 20px;
+    padding-top: 50px;
+    font-size: 25px;
+}
+.image2 {
+    max-width: 353px;
+    padding-right: 100px;
+}
+.h{
+    width: 80%;
+    height: 4px;
+    background-color: #f07575;
+    border-radius: 2px;
+    box-sizing: border-box;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: auto;
+    margin-top: auto;
+    border: none;
+    
+}
